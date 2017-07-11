@@ -1,0 +1,48 @@
+
+
+
+#überschrift {
+  z-index: 100;
+  font-family: Helvetica;
+  position: absolute;
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
+  left: 150px;
+  top: 350px;
+}
+
+.social_buttons {
+width: 1200px;
+height: 100px;
+background-color: #FFF5EE;
+text-align: center;
+padding-top: 15px;
+}
+
+.menü {
+  height: 230px;
+  width: 1260px;
+}
+
+.content1 {
+  text-align: left;
+  font-family: Helvetica;
+  font-size: 25px;
+}
+
+#mylife {
+  font-weight: bold;
+  font-size: 50px;
+  padding-left: 100px;
+}
+
+.lebenslauf {
+  padding-left: 100px;
+  width: 250px;
+}
+
+.contentbild1 {
+  padding-right: 50px;
+  width: 500px;
+}
