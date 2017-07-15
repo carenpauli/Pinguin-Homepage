@@ -1,5 +1,14 @@
 
+.container {
+  max-width: 1260px;
+  min-width: 1000px;
+  margin: auto;
+}
 
+#profile-image {
+  margin: auto;
+  width: 1260px;
+}
 
 #überschrift {
   z-index: 100;
@@ -13,7 +22,9 @@
 }
 
 .social_buttons {
-width: 1200px;
+display: inline-block;
+margin: auto;
+width: 1260px;
 height: 100px;
 background-color: #FFF5EE;
 text-align: center;
@@ -21,28 +32,73 @@ padding-top: 15px;
 }
 
 .menü {
-  height: 230px;
-  width: 1260px;
+  max-width: 1260px;
+  min-width: 500px;
+  height: 500px;
+  display: inline;
+  margin: auto;
 }
 
+.menübild1 {
+  margin-right: 60px;
+  margin-top: 5px;
+  display: inline;
+}
+
+.menübild2 {
+  margin: auto;
+  margin-top: 5px;
+  display: inline;
+}
+
+.menübild3 {
+  margin-left: 60px;
+  margin-top: 5px;
+  display: inline;
+}
+
+
+
+
 .content1 {
-  text-align: left;
+  width: 1260px;
+  height: 750px;
+  display: inline;
+  border-style: solid;
+}
+
+.lebenslauf {
+  width: 500px;
+  height: 750px; 
+  display: inline;
+  border-style: solid;
   font-family: Helvetica;
+  text-align: left;
   font-size: 25px;
 }
 
 #mylife {
+  font-family: Helvetica;
   font-weight: bold;
   font-size: 50px;
-  padding-left: 100px;
+  padding-left: 50px;
+  width: 200px;
+  border-style: solid;
 }
 
-.lebenslauf {
-  padding-left: 100px;
-  width: 250px;
+.liste {
+  width: 500px;
+  height: 750px;
+  font-family: Helvetica;
+  text-align: left;
+  font-size: 25px;
+  border-style: solid;
 }
+
 
 .contentbild1 {
-  padding-right: 50px;
   width: 500px;
+  height: 750px;
+  display: inline;
+  border-style: solid;
 }
