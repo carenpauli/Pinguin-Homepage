@@ -1,9 +1,14 @@
+*{
+  box-sizing: border-box;
+}
+
 
 .container {
   max-width: 1260px;
   min-width: 1000px;
   margin: auto;
 }
+
 
 #profile-image {
   margin: auto;
@@ -62,43 +67,59 @@ padding-top: 15px;
 
 .content1 {
   width: 1260px;
+  height: 500px;
+  margin: auto;
+  border-style: solid;
+  border-color: #FFD700;
+  background-color: #FFF5EE;
+}
+
+.block1 {
+  width: 1260px;
   height: 750px;
   display: inline;
-  border-style: solid;
 }
 
 .lebenslauf {
-  width: 500px;
-  height: 750px; 
-  display: inline;
-  border-style: solid;
+  width: 1260px;
+  height: 400px;
   font-family: Helvetica;
-  text-align: left;
+  text-align: center;
   font-size: 25px;
 }
 
 #mylife {
-  font-family: Helvetica;
+  font-family: Georgia, serif;
   font-weight: bold;
   font-size: 50px;
-  padding-left: 50px;
-  width: 200px;
-  border-style: solid;
+  color: #FFB6C1;
+  text-align: center;
+  width: 1260px;
 }
 
 .liste {
-  width: 500px;
-  height: 750px;
+  width: 1260px;
+  height: 400px;
   font-family: Helvetica;
-  text-align: left;
+  color: #808080;
+  text-align: center;
   font-size: 25px;
-  border-style: solid;
 }
 
 
-.contentbild1 {
-  width: 500px;
+
+
+
+.bilder {
+  width: 1260px;
   height: 750px;
-  display: inline;
-  border-style: solid;
+  background-color: #FFB6C1;
+}
+
+.bild6 {
+  float: left;
+}
+
+.bild4 {
+  float: right;
 }
