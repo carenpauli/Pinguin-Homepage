@@ -94,7 +94,6 @@ padding-top: 15px;
   font-size: 50px;
   color: #FFB6C1;
   text-align: center;
-  width: 1260px;
 }
 
 .liste {
@@ -105,9 +104,6 @@ padding-top: 15px;
   text-align: center;
   font-size: 25px;
 }
-
-
-
 
 
 .bilder {
@@ -122,4 +118,31 @@ padding-top: 15px;
 
 .bild4 {
   float: right;
+}
+
+
+.content2 {
+  width: 1260px;
+  height: 400px;
+  margin: auto;
+  border-style: solid;
+  border-color: #FFD700;
+  background-color: #FFF5EE;
+}
+
+#mywork {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: #FFB6C1;
+  text-align: center;
+}
+
+
+.arbeitstext {
+  height: 400px;
+  font-family: Georgia, serif;
+  text-align: center;
+  font-size: 20px;
+  color: #808080;
 }
